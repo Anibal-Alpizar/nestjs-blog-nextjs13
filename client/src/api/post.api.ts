@@ -8,3 +8,7 @@ const postApi = axios.create({
 export const getPosts = (): Promise<AxiosResponse<Posts[]>> => {
   return postApi.get('/');
 };
+
+export const getPost = (id: string): Promise<AxiosResponse<Posts>> => {
+  return postApi.get(`/${id}`);
+};
