@@ -1,9 +1,9 @@
 import React from 'react';
 
-function page() {
+function Page() {
   return (
-    <div>
-      <p>
+    <div className="container mx-auto px-4 py-8">
+      <p className="text-lg text-gray-700">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nemo
         corrupti omnis perspiciatis! Tempore sunt, reiciendis sed distinctio
         maxime dignissimos ullam fugit. Esse quidem facilis tempore alias
@@ -15,4 +15,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
